@@ -1,7 +1,7 @@
 # randomized-selector
 A selector which takes a new line delimited file, and randomly chooses n-number of elements from the list.  Written in Python
 
-The application works by taking a new-line delimited file, and can be provided a `count` that determines the number of results desired.
+The application works by taking a new-line delimited file, and can be provided a `count` that determines the number of results desired. The list from the file will be parsed as a list, and using `python.random()` the list will be shuffled and random element will be chosen from the shuffled list.
 
 ## Examples
 With the file `example.txt` provided within the repository there are 6 fruits and vegetables in the file.
