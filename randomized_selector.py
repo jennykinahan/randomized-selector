@@ -17,7 +17,7 @@ def process_list(filename: str, count: int) -> list[str]:
     
     return list_from_file
 
-def output_selected(elements: list[str], count: int) -> None:
+def output_selected(elements: list[str], count: int) -> list[str]:
     results: list[str] = []
     random.shuffle(elements)
     for i in range(0, count):
